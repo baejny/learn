@@ -32,3 +32,5 @@ public class SubActivity extends AppCompatActivity {
         Log.d("Destroy", "sub_Destroy_message");
     }
 }
+//MainActivity에서 SubActivity 생성 시 두 페이지 모두 Destroy 해주는 코드. 
+//이 경우 onCreate()와 onDestroy()등 계속 호출해 주기 때문에 시간이 걸릴 가능성.
